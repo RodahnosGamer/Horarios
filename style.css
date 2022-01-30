@@ -1,0 +1,75 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+body{
+   background: radial-gradient( circle , #A0A1FD, #B0DFF9);
+   font-family: 'Balsamiq Sans', cursive;
+   
+}
+.special{
+    color:
+    #9AFBF0
+    #F6CAFD
+    #A0A1FD
+    #B0DFF9
+    #F5DFB5  
+    
+    
+    ;
+}
+
+main{
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    width: 600px;
+    padding: 5px;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    color: #fa3da5;
+    box-shadow: 1px 1px 20px 1px #000000a8 ;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.397);
+    
+    
+}
+
+
+.blockiquinho{
+
+    background-color: #ffd78d;
+    margin: auto;
+    width: 200px;
+    border-radius: 20px;
+    transition: 300ms;
+    font-size: 1.2em;
+    position: absolute;
+
+    
+}
+.block1{
+    border: thick solid #fc484800;
+    right: 51%;
+    border-width: 2px;
+}
+.block2{
+    border: thick solid #fc484800;
+    left: 51%; 
+    border-width: 2px;
+}
+.blockiquinho:hover{
+    transition: 500ms;
+    box-shadow: 1px 3px 20px      #835500b7  ;
+}
+.externallink{
+    color: #fa3da5;
+    transition: 300ms;
+}
+.externallink:hover{
+    transition: 300ms;
+    color: rgb(255, 110, 110);
+
+}
+.especialzinho{
+    font-size: 2.5em;
+}
